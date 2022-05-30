@@ -13,7 +13,7 @@ const ctx = document.getElementById('myChart').getContext('2d');
 
 var n = [];
 var arr = [];
-for(i=1;i<=300*2;i++){
+for(i=1;i<=365*2;i++){
     n.push(i);
     arr.push(Math.floor(Math.random()*(100-50+1))+50);
 };
